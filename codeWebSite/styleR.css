@@ -1,0 +1,192 @@
+/* CSS Libraries Used 
+
+*Animate.css by Daniel Eden.
+*FontAwesome 4.7.0
+*Typicons
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+
+body, html {
+    background-image: linear-gradient(rgba(9,9,121,100));
+  background-color: #1d243d;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  margin: 10px;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+  background-color: rgb( 33, 41, 66 );
+  border-radius: 9px;
+  border-top: 10px solid #79a6fe;
+  border-bottom: 10px solid #8BD17C;
+  width: 40%;
+  height: 95% ;
+  box-shadow: 1px 1px 108.8px 19.2px rgb(25,31,53);
+}
+
+.row {
+  display: flex;
+  justify-content:center;
+  text-align:center;
+  width:auto;
+  margin-bottom:auto;
+}
+
+.if--input:focus {
+    border: 1px solid #79A6FE; 
+}
+.if--input{
+  display: block;
+  /*margin: 5px auto;*/
+  background: #262e49;
+  border: 0;
+  border-radius: 5px;
+  padding: 14px 10px;
+  margin:5px;
+  width: 40%;
+  outline: none;
+  color: #d6d6d6;
+      -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;  
+}
+/*
+::-webkit-if--input:valid + .placeholder {
+  color: #d6d6d6;
+}*/
+.if--input[type= "date"]:valid,
+.if--input[type= "date"]:focus{
+    color: white;
+ }
+::-webkit-if--input-placeholder {
+  color: #565f79;
+}
+
+.if--input[type= "date"]{
+    color: #787881;
+ }
+
+  
+ input:-webkit-autofill,
+ input:-webkit-autofill:hover, 
+ input:-webkit-autofill:focus,
+ textarea:-webkit-autofill,
+ textarea:-webkit-autofill:hover,
+ textarea:-webkit-autofill:focus,
+ select:-webkit-autofill,
+ select:-webkit-autofill:hover,
+ select:-webkit-autofill:focus {
+   -webkit-text-fill-color: #d6d6d6;
+   transition: background-color 5000s ease-in-out 0s;
+ }
+
+
+
+
+h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #5c6bc0; 
+  font-size: 18px;
+  margin-top:20px;
+}
+
+h4 span {
+  color: #dfdeee;
+  font-weight: lighter;
+}
+
+h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+  color: #a1a4ad;
+  letter-spacing: 1.5px;
+  margin-top: -15px;
+  margin-bottom: 30px auto;
+}
+
+.btn1 {
+  border:0;
+  background: #7f5feb;
+  color: #dfdeee;
+  border-radius: 100px;
+  width: 60%;
+  height: 7%;
+  font-size: 16px;
+  margin-top: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn1:hover {
+  background: #5d33e6;
+}
+input[type="checkbox"]{
+    margin-top: 10px;
+}
+.label-term{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    color: #a1a4ad;
+    letter-spacing: 1.5px;
+    margin-top: 3%;
+}
+
+
+.login-div{
+  font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    color: #a1a4ad;
+    letter-spacing: 1.5px;
+    margin-top: 1,5%;
+}
+
+.pass{
+    width: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+.row-email-password{
+    display: flex;
+    transform: translate(8.25%);
+  width:auto;
+  margin-bottom:auto;
+}
+
+a{
+  color:#79A6FE;
+}
+/*
+form.box div.row input[type = "text"],.box input[type = "password"] {
+    display: block;
+    margin: 20px auto;
+    background: #262e49;
+    border: 0;
+    border-radius: 5px;
+    padding: 14px 10px;
+    width: 320px;
+    outline: none;
+    color: #d6d6d6;
+        -webkit-transition: all .2s ease-out;
+      -moz-transition: all .2s ease-out;
+      -ms-transition: all .2s ease-out;
+      -o-transition: all .2s ease-out;
+      transition: all .2s ease-out;
+    
+  }
+  ::-webkit-input-placeholder {
+    color: #565f79;
+  }
+  
+  

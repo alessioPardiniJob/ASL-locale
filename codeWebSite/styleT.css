@@ -1,0 +1,23 @@
+.bottone{
+
+    border:0;
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+      background: gray;
+      color: black;
+      border-radius: 100px;
+      width: 40%;
+      height: 15%;
+      font-size: 16px;
+      transition: 0.3s;
+      cursor: pointer;
+      margin-top:5%;
+      margin-bottom: 5%;
+      display: flex;
+      justify-content:center;
+    }
+
+.bottone:hover{
+    background: rgb(85, 85, 85);
+}

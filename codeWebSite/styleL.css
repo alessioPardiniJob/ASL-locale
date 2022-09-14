@@ -1,0 +1,132 @@
+
+body, html {
+    background-image: linear-gradient(rgba(9,9,121,100));
+  background-color: #1d243d;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  margin-top: 10%;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+  background-color: rgb( 33, 41, 66 );
+  border-radius: 9px;
+  border-top: 10px solid #79a6fe;
+  border-bottom: 10px solid #8BD17C;
+  width: 30%;
+  height: 60%;
+  box-shadow: 1px 1px 108.8px 19.2px rgb(25,31,53);
+}
+
+
+.if--input:focus {
+    border: 1px solid #79A6FE; 
+}
+
+.if--input{
+    position:relative;
+    left:50%;
+    transform: translate(-50%);
+  display: block;
+  margin: 5px auto;
+  background: #262e49;
+  border: 0;
+  border-radius: 5px;
+  padding: 14px 10px;
+  margin:5px;
+  width: 40%;
+  outline: none;
+  color: #d6d6d6;
+      -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;  
+}
+
+::-webkit-if--input-placeholder {
+    color: #565f79;
+}
+
+  
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #d6d6d6;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+div.inputs{
+    margin-top: 10%;
+}
+
+h4 {
+ font-family: 'Source Sans Pro', sans-serif;
+ color: #5c6bc0; 
+ font-size: 18px;
+  margin-top:94px;;
+}
+
+h4 span {
+ color: #dfdeee;
+ font-weight: lighter;
+}
+
+h5 {
+ font-family: 'Source Sans Pro', sans-serif;
+ font-size: 13px;
+ color: #a1a4ad;
+ letter-spacing: 1.5px;
+ margin-top: -15px;
+    /*margin-bottom: 70px;*/
+}
+
+.btn1 {
+ border:0;
+ background: #7f5feb;
+ color: #dfdeee;
+ border-radius: 100px;
+ width: 60%;
+  height: 50px;
+ font-size: 16px;
+ margin-top: 5%;
+ transition: 0.3s;
+ cursor: pointer;
+ text-align: center;
+}
+
+.btn1:hover {
+ background: #5d33e6;
+}
+
+.paragrafo{
+ font-family: 'Source Sans Pro', sans-serif;
+ font-size: 13px;
+ color: #a1a4ad;
+ letter-spacing: 1.5px;
+ margin-top:5%;
+}
+
+
+.pass{
+    left:73%;
+    position: absolute;
+    width: 2em; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+  color:#79A6FE;
+}
